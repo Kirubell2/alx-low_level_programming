@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	export "$CFILE=O-main.c";
+	printf( $CFILE > main.c);
 	return (0);
 }
