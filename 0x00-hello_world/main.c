@@ -7,5 +7,6 @@
  */
 int main(void)
 {
+	export "$CFILE=O-main.c";
 	return (0);
 }
