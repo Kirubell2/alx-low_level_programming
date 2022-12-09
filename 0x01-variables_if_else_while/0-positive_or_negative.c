@@ -3,10 +3,10 @@
 #include <time.h>
 /**
  * main - main block
- *description: get a random number and print it
- *and if it is postive, negative or zero
- *Return: 0
-*/
+ * Description: get a random number and print it
+ * and if it is postive, negative or zero
+ * Return: 0
+ */
 int main(void)
 { 
 	int n;
@@ -14,10 +14,10 @@ int main(void)
 	srand(time(0));
 	n = rand(0) - RAND_MAX / 2;
 	if (n > 0)
-		printf("%i is postive\n")
+		printf("%i is postive\n", n)
 	else if (n < 0)
-		printf("%i is negative\n");
+		printf("%i is negative\n", n);
 	else 
-		printf("%i is zero\n")
+		printf("%i is zero\n", n)
 	return (0);
 }
