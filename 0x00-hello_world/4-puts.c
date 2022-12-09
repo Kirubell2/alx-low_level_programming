@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main - main block 
+ * main - main block 
  * Return: o
  */
 int main(void)
