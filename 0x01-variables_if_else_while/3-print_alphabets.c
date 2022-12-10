@@ -2,24 +2,27 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main : main block
- * description: prints the alphabet in lowercase,
- * and then in uppercase, followed by a new line
- * return: 0
+ * main : Entry point
+ * 
+ * return: Alawys 0 (success)
  */
 int main(void)
 {
-	char c = 'a';
-	while (c <= 'z')
-{
+	char c;
+
+	char d;
+
+	c = 'a';
+	d = 'A';
+	while
+	       	(c <= 'z'){
 	putchar(c);
 	c++;
-}
-      char c = 'A';
-      while (c <= 'Z')
-{
-	putchar(c);
-	c++;
+		}
+      while 
+	      (d <= 'Z'){
+	putchar(d);
+	d++;
 } 
        putchar('\n');
        return(0);
