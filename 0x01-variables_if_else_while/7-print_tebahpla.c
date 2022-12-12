@@ -9,11 +9,11 @@ int main(void)
 	char c;
 
 	c = 'z';
-	while 
+	while
 		(c >= 'a') {
-			putchar(c);;
+			putchar(c);
 			c--;
 		}
 	putchar('\n');
-	return(0);
+	return (0);
 }
