@@ -1,20 +1,19 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Alays 0 (success)
+ * main - prints the alphbet in lowercase
+ * followed by a newline, except q and e
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	char c;
+	char la;
 
-	c = 'a';
-	while 
-		(c <= 'z') {
-			if ((c != 'q' && c != 'e') && c <= 'z')
-				putchar(c);
-			c++;
-		}
+	for (la = 'a'; la <= 'z'; la++)
+	{
+		if (la != 'q' && la != 'e')
+			putchar(la)
+	}
+
 	putchar('\n');
-	return(0);
+	return (0);
 }

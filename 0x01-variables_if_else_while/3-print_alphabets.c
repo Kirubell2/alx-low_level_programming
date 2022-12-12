@@ -1,29 +1,19 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+
 /**
- * main : Entry point
- * 
- * return: Alawys 0 (success)
+ * main - prints the alpha in lower and upper case
+ * Return: Always 0
  */
+
 int main(void)
 {
-	char c;
+	char ch;
 
-	char d;
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
 
-	c = 'a';
-	d = 'A';
-	while
-	       	(c <= 'z'){
-	putchar(c);
-	c++;
-		}
-      while 
-	      (d <= 'Z'){
-	putchar(d);
-	d++;
-} 
-       putchar('\n');
-       return(0);
+	for (ch = 'Z'; ch <= 'Z'; ch++)
+		putchar(ch);
+	putchar('\n');
+	return (0);
 }
