@@ -7,10 +7,14 @@
 
 int main(void)
 {
-	int add(int, int);
+	int add,
+}
+
+int add(89, 9)
+{
 	int sum;
 
-	sum = add(89, 0);
+	sum = add(89, 9);
 
 	printf("%d", sum);
 	return (0);
