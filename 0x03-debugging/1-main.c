@@ -12,9 +12,9 @@ int main(void)
 	
 	i = 0;
 	
-	while (i < 10)//i never increments so it is always going to print 0
+	while (i < 10)
 	{
-		putchar(i);
+		putchar(i);// i never increments so the statment is always going to be true
 	}
 	printf("Infinite loop avoided! \\o/\n");
 	return (0)}
