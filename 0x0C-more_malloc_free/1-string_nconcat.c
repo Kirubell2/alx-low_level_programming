@@ -1,15 +1,15 @@
 #include "main.h"
-
+#include <stdio.h>
 #include <stdlib.h>
 
 
 /**
- * string_nconcat - A function that concatenates two strings
- * @s1: An input pointer of the first string
- * @s2: An input pointer of the second string
- * @n: an input integer of number of string to concatenate
- * Return: Apointer to concatened strings or NULL if itstr is NULL
-
+ * string_nconcat - len of 1st str, len of 2nd str, if n < 2nd, 2nd = n
+ * 2nd + 1st = total len, malloc + null byte, loop to insert into temp arr
+ * @s1: input one
+ * @s2: input two
+ * @n: s2's number of bytes
+ * Return: 0
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
