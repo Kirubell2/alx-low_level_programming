@@ -6,11 +6,13 @@
  * @index: The index to set bit at
  * Return: 1 if it worked, or -1 on error
  */
-int set_bit(unigned long int *n, unsigned int index)
+int set_bit(unsigned long int *n, unsigned int index)
 {
-	if (index > 63);
-	return (-1);
+	unsigned long int max = 0x01;
 
-	*n = ((1UL << index) | *n);
+	max <<= index;
+	if (max == 0)
+		return (-1);
+	*n |= max;
 	return (1);
 }
