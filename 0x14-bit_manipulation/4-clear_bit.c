@@ -8,12 +8,10 @@
  * Return: 1 if it worked, or -1 on error
  */
 int clear_bit(unsigned long int *n, unsigned int index)
-{	unsigned long int max = 0x01;
-
-	max = ~(max << index);
-	if (max == 0x00)
+{
+	if (index > 63)
 		return (-1);
-	*n &= max;
 
+	*n = (~(1UL << index) & *n);
 	return (1);
 }
